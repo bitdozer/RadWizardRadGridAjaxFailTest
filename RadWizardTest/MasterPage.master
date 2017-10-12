@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="Site.Master" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI, Version=2017.3.913.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4" %>
+<asp:Content runat="server" ID="Main" ContentPlaceHolderID="MainContent">
+    <telerik:RadAjaxManager runat="server"></telerik:RadAjaxManager>
+    <asp:ContentPlaceHolder runat="server" ID="InnerContent">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
