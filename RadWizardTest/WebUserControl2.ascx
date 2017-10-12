@@ -8,7 +8,7 @@
                 <asp:ListItem Value="Type2">Type 2</asp:ListItem>
             </Items>
         </asp:RadioButtonList>
-        <asp:PlaceHolder runat="server" ID="phType1" Visible="False">Type 111111111111111111</asp:PlaceHolder>
-        <asp:PlaceHolder runat="server" ID="phType2" Visible="False">Type 222222222222222222222222222222222222222222</asp:PlaceHolder>
+        <asp:PlaceHolder runat="server" ID="phType1" Visible="False"><div style="background-color: bisque">Type 111111111111111111</div></asp:PlaceHolder>
+        <asp:PlaceHolder runat="server" ID="phType2" Visible="False"><div style="background-color: black; color: bisque">Type 222222222222222222222222222222222222222222</div></asp:PlaceHolder>
     </ContentTemplate>
 </asp:UpdatePanel>

@@ -4,7 +4,8 @@
 <%@ Register Src="~/WebUserControl1.ascx" TagPrefix="uc1" TagName="WebUserControl1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="InnerContent" runat="Server">
-
+    <h3>Working Version</h3>
+    <p>Click <strong>Documents</strong>, then click <strong>Add (+)</strong> and then click the Radio Buttons to see the text change.</p>
     <asp:UpdatePanel runat="server">
         <ContentTemplate>
             <telerik:RadWizard runat="server" ID="rz1">
